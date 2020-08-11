@@ -1,0 +1,45 @@
+{
+  "name": "hubot-awesome-giphy",
+  "description": "A hubot script that gives the gifs/stickers from GIPHY",
+  "version": "1.0.0",
+  "author": "Siddharth Bhalgami <siddharth.bhalgami@gmail.com> (https://github.com/bud-e)",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "giphy",
+    "gif",
+    "sticker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bud-e/hubot-awesome-giphy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bud-e/hubot-awesome-giphy/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "hubot-test-helper": "^1.3.0",
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "homepage": "https://github.com/bud-e/hubot-awesome-giphy#readme"
+}
